@@ -10,7 +10,7 @@ import schema from './schema';
 
 async function startApolloServer() {
   const app = express();
-  app.use(cors());
+  //   app.use(cors());
   const httpServer = http.createServer(app);
   const server = new ApolloServer({
     schema,
@@ -22,7 +22,7 @@ async function startApolloServer() {
     ],
   });
   await server.start();
-  server.applyMiddleware({ app });
+  server.applyMiddleware({ app, cors: true });
   await new Promise<void>((resolve) =>
     httpServer.listen({ port: 4000 }, resolve)
   );

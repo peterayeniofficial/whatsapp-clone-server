@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Query.chats should fetch all chats 1`] = `
+{
+  "chats": [
+    {
+      "id": "1",
+      "lastMessage": {
+        "content": "You on your way?",
+        "createdAt": 2022-09-18T02:11:06.214Z,
+        "id": "1",
+      },
+      "name": "Ethan Gonzalez",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+    },
+    {
+      "id": "2",
+      "lastMessage": {
+        "content": "Hey, it's me",
+        "createdAt": 2022-09-17T09:31:06.214Z,
+        "id": "2",
+      },
+      "name": "Bryan Wallace",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/2.jpg",
+    },
+    {
+      "id": "3",
+      "lastMessage": {
+        "content": "I should buy a boat",
+        "createdAt": 2022-09-02T02:51:06.214Z,
+        "id": "3",
+      },
+      "name": "Avery Stewart",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/1.jpg",
+    },
+    {
+      "id": "4",
+      "lastMessage": {
+        "content": "This is wicked good ice cream.",
+        "createdAt": 2022-01-28T10:51:06.214Z,
+        "id": "4",
+      },
+      "name": "Katie Peterson",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/2.jpg",
+    },
+  ],
+}
+`;
